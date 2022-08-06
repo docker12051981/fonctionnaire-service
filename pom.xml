@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.annuaire</groupId>
 	<artifactId>fonctionnaire-service</artifactId>
-	<version>0.0.1-kubernetes</version>
+	<version>0.0.1-compose</version>
 	<name>fonctionnaire-service</name>
 	<description>fonctionnaire-service</description>
 	<properties>
@@ -23,6 +23,12 @@
 			<groupId>org.modelmapper</groupId>
 			<artifactId>modelmapper</artifactId>
 			<version>2.4.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongodb-driver-core</artifactId>
+			<version>4.4.2</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

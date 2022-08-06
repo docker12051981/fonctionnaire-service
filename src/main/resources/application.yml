@@ -5,8 +5,7 @@ server:
 spring:
   data:
     mongodb:
-      database: fonctionnaire_db
-      port: 27017
+      uri: mongodb://mongo1:27017,mongo2:27027,mongo3:27037/?replicaSet=rs0&retryWrites=true/fonctionnaire_db
   application:
     name: FONCTIONNAIRE-SERVICE
 
